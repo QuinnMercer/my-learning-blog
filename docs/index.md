@@ -1,25 +1,23 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "我的开发日志"
-  text: "记录Django+Vue开发与成长"
-  tagline: My great project tagline
+  name: "我的学习日志"
+  text: "Django+Vue 开发与成长记录"
+  tagline: 从零搭建企业OA系统，记录每一步
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读 →
+      link: /day1
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: https://github.com/QuinnMercer/my-learning-blog
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 实战项目
+    details: 完整的企业OA系统开发过程
+  - title: 技术栈
+    details: Django, Vue, Docker, Celery
+  - title: 学习笔记
+    details: 每天记录关键点与踩坑
 ---
-
